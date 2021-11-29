@@ -21,7 +21,7 @@ li
 /*TOPO*/
 
 	header.topo{
-		
+		margin-top: -20px;
 
 	}
 
@@ -65,11 +65,18 @@ li
 		font-size: 12px;
 	}
 
-	img{
+	.user{
+		width: 186px;
 		transition: all 0.5s;
 	}
 
-	img:hover{
+	.user:hover{
+		border: 1px solid whitesmoke;
+	}
+	.add-user{
+		transition: all 0.5s;
+	}
+	.add-user:hover{
 		border: 1px solid whitesmoke;
 	}
 
@@ -83,18 +90,18 @@ li
 		height: 30px;
 	}
 
-	@media(max-width: 300px){
+	@media(max-width: 400px){
 		header.topo{
-		margin-left: 60px;
-		margin-top: -26px;
+		margin-left: 80px;
+		margin-top: -25px;
 		}
 		ul{
 	
 			display: flex;
-			flex-direction: column;
+			justify-items: baseline;
 			
 		}
-		figure{
-			width: 50px;
+		img{
+			width: 150px;
 		}
 	}		
