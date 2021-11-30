@@ -45,8 +45,10 @@ li
 	div.pg-home 
 	{
 	width: 858px;
-	margin-left: 180px;
+	margin-left: auto;
+	margin-right: auto;
 	}
+
 	
 	ul{
 		display: flex;
