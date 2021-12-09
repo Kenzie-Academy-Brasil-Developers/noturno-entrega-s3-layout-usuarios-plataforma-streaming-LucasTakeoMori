@@ -66,12 +66,15 @@
 		width: 150px;
 		height: 30px;
 	}
-
+	/*400 * 1276*/
 	@media(max-width: 400px){
 		#botao{text-align: center;
 			margin-top: 100px;
 			margin-right: 53%;}
-
+		button{
+			width: 300px;
+			height: 50px;
+		}
 			#list-user{
 				display: grid;
 				grid-template-columns:200px 200px ;
