@@ -10,7 +10,7 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css" />
-
+	<link rel="stylesheet" href="css/reset.css" />
 	<!-- FAVICON -->
 	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png" /> 
 </head>
@@ -19,7 +19,7 @@
 	<!-- CABEÇALHO -->
 	<header class="topo">
 		<figure> 
-			<img class = "photo-user" src="img/logo.png" alt="Kenzieflix" width="150">
+			<img class = "photo-user" src="img/logo.png" alt="Kenzieflix" width="200">
 			<figcaption>Kenzieflix</figcaption>
 		</figure>
 	</header>
@@ -34,12 +34,12 @@
 			</header>
 
 			<!-- LISTA DE USUÁRIOS -->
-			<ul>
+			<ul id="list-user">
 				
 				<!-- USUÁRIO 1 -->
-				<li >
-					<figure>
-						<img  class = "user" src="img/avatar.png" alt="Gabriel" width="186">
+				<li   class = "box-user">
+					<figure >
+						<img  class = "user" src="img/avatar.png" alt="Gabriel">
 						<figcaption>Gabriel</figcaption>
 					</figure>
 
@@ -47,9 +47,9 @@
 				</li>
 				
 				<!-- USUÁRIO 2 -->
-				<li>
+				<li  class = "box-user">
 					<figure>
-						<img class = "user" src="img/avatar1.png" alt="Maria" width="186">
+						<img class = "user"  src="img/avatar1.png" alt="Maria">
 						<figcaption>Maria</figcaption>
 					</figure>
 
@@ -57,9 +57,9 @@
 				</li>
 				
 				<!-- USUÁRIO 3 -->
-				<li>
+				<li class = "box-user">
 					<figure>
-						<img class = "user" src="img/avatar2.png" alt="Renato" width="186">
+						<img class = "user" src="img/avatar2.png" alt="Renato">
 						<figcaption>Renato</figcaption>
 					</figure>
 
@@ -67,9 +67,9 @@
 				</li>
 
 				<!-- ADICIONAR PERFIL-->
-				<li>
+				<li  class ="box-user">
 					<figure>
-						<img class ="add-user" src="img/plus-sign.png" alt="Adicionar perfil">
+						<img  src="img/plus-sign.png" alt="Adicionar perfil"> 
 						<figcaption>Adicionar perfil</figcaption>
 					</figure>
 
@@ -78,7 +78,7 @@
 
 			</ul>
 
-			<footer>
+			<footer id = "botao">
 				<button>Gerenciar Perfis</button>
 			</footer>
 
